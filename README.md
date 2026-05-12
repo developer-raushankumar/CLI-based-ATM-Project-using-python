@@ -1,41 +1,39 @@
 ATM Simulation System (CLI-based)
 📌 Project Overview
-A robust Command Line Interface (CLI) application built with Python that simulates core banking operations. This project demonstrates fundamental programming concepts including modular logic, user input validation, and secure state management.  
+A robust Command Line Interface (CLI) application built with Python that simulates core banking operations. This project demonstrates fundamental programming concepts including modular logic, secure state management, and advanced exception handling to ensure a crash-free user experience.  
 
-🚀 Features
-Secure Authentication: Simulates a realistic PIN entry system with a limit of 3 attempts before account lockout.  
+🚀 Key Features
+Secure Authentication: Realistic PIN entry system with a built-in attempt counter to simulate account security.  
 
-Balance Inquiry: Real-time checking of account funds.  
+Transaction Management: Dedicated functions for depositing and withdrawing funds with real-time balance verification.  
 
-Transaction Management: Modular functions for depositing and withdrawing funds with balance verification.  
+Error & Exception Handling: Utilizes try-except blocks to gracefully handle non-numeric inputs and prevent system crashes.  
 
-Input Validation: Ensures only valid numerical amounts are processed to prevent logical errors.  
+User Experience: Interactive menu-driven interface using Python’s modern match-case statements (Python 3.10+).  
 
-📂 Code Logic Highlights
-Modular Design: Separate functions handle specific banking tasks, making the code maintainable and scalable.  
+📂 Technical Logic Highlights
+Modular Design: Code is organized into reusable functions, making it maintainable and easy to scale for future features.  
 
-Persistent Session: Uses a while loop to maintain the user session until the "Exit" option is selected.  
+Input Validation: Every user input is validated to ensure it is a positive integer before any mathematical operations occur.  
 
-Security Logic: Implements a count mechanism to handle incorrect PIN attempts and block unauthorized access.  
+Session Persistence: A persistent while loop maintains the state of the account (balance) throughout the entire session.  
 
 📋 How to Run
+
 Clone the repository:
+   git clone [https://github.com/developer-raushankumar/atm-simulation-python.git]
 
-Bash
-git clone https://github.com/developer-raushankumar/atm-simulation-python.git
 Navigate to the project directory:
+   cd atm-simulation-python
 
-Bash
-cd atm-simulation-python
 Run the script:
-
-Bash
    python atm_simulation.py
+   
 👨‍💻 Author
 Raushan Kumar
 
-MCA Student (AI & Data Science) at Vivekananda Global University.  
+Education: MCA Student (AI & Data Science) at Vivekananda Global University.  
 
-BCA Graduate (75%) from Purnea University.  
+Background: BCA Graduate (75%) from Purnea University.  
 
-Email: developer.raushankumar@gmail.com.
+Professional Email: developer.raushankumar@gmail.com.
