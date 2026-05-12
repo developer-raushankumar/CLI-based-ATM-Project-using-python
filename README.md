@@ -22,15 +22,12 @@ Clone the repository:
    git clone [https://github.com/developer-raushankumar/atm-simulation-python.git]
 
 Navigate to the project directory:
-   
    cd atm-simulation-python
 
 Run the script:
-   
    python atm_simulation.py
    
 👨‍💻 Author
-
    Raushan Kumar
 
 Education: MCA Student (AI & Data Science) at Vivekananda Global University.  
